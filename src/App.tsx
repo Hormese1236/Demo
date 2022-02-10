@@ -10,7 +10,9 @@ import Welcome from './Welcome';
 import 'bootstrap/dist/css/bootstrap.css';
 import Calendar from './Calendar';
 import NewEvent from './NewEvent';
-import Todo from './components/Todo'
+// import Todo from './components/Tod2'
+import Tod2 from './components/Todo';
+import Todo from './components/Todo';
 type AppProps= {
   pca: IPublicClientApplication
 };
@@ -40,7 +42,7 @@ export default function App({ pca }: AppProps) {
   } />
    <Route exact path="/Todo"
   render={(props) =>
-    <Todo {...props} /> 
+    <Todo  {...props}/> 
   } />
 
 </Container>
